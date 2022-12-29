@@ -58,7 +58,7 @@ public class TreeNode {
      * @return
      */
     public static List<Integer> treeToList(TreeNode root) {
-        List<Integer> list = new ArrayList<>();
+        List<Integer> list = new ArrayList();
         if(root == null) return list;
         Queue<TreeNode> queue = new LinkedList() {{ add(root); }};
         while(!queue.isEmpty()) {
