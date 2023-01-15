@@ -1,10 +1,9 @@
-package org.dog.patterns.singleton.demo1;
-
-/**
+package org.dog.patterns.singleton.demo1;/**
  * @Author: Odin
  * @Date: 2023/1/15 21:13
  * @Description:
  */
+
 /**
  * 饿汉式
  *      静态变量创建类的对象
